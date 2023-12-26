@@ -1,4 +1,4 @@
-import { getShaderSource } from './shaders/shader_loader.js';
+import { getShaderSource } from './shader_loader.js';
 const vertShaderCode = await getShaderSource('./shaders/vert.wgsl');
 const fragShaderCode = await getShaderSource('./shaders/frag.wgsl');
 
